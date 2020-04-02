@@ -1,4 +1,42 @@
 footer {
-    height: 200px;
     background-color: $first-color;
+    padding: 100px 0;
+    .container {
+        display: flex;
+        .sinistra {
+            width: 30%;
+            display: flex;
+            align-items: flex-start;
+            img {
+                width: 100px;
+                margin-right: 20px;
+            }
+            p {
+                line-height: 20px;
+                color: $text-color;
+                a {
+                    color: $third-color;
+                }
+            }
+        }
+        .destra {
+            width: 70%;
+            display: flex;
+            .lista {
+                width: 25%;
+                h4 {
+                    margin-bottom: 20px;
+                    color: $text-color;
+                }
+            }
+            ul {
+                a {
+                    line-height: 30px;
+                    text-decoration: none;
+                    color: $text-color;
+                }
+                list-style: none;
+            }
+        }
+    }
 }

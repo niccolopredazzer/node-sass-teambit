@@ -351,7 +351,55 @@ main {
 /* FOOTER */
 
 footer {
-  height: 200px;
   background-color: #ffffff;
+  padding: 100px 0;
+}
+
+footer .container {
+  display: flex;
+}
+
+footer .container .sinistra {
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+}
+
+footer .container .sinistra img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+footer .container .sinistra p {
+  line-height: 20px;
+  color: #58402c;
+}
+
+footer .container .sinistra p a {
+  color: #30488f;
+}
+
+footer .container .destra {
+  width: 70%;
+  display: flex;
+}
+
+footer .container .destra .lista {
+  width: 25%;
+}
+
+footer .container .destra .lista h4 {
+  margin-bottom: 20px;
+  color: #58402c;
+}
+
+footer .container .destra ul {
+  list-style: none;
+}
+
+footer .container .destra ul a {
+  line-height: 30px;
+  text-decoration: none;
+  color: #58402c;
 }
 
