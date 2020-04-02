@@ -1,0 +1,19 @@
+main {
+    width: 100vw;
+    .first-section{
+        background-color: $first-color;
+        height: 500px;
+    }
+    .second-section {
+        background-color: $second-color;
+        height: 500px;
+    }
+    .third-section {
+        background-color: $first-color;
+        height: 500px;
+    }
+    .fourth-section {
+        background-color: $second-color;
+        height: 500px;
+    }
+}

@@ -1,3 +1,9 @@
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
 /* RESET */
 
 * {
@@ -9,6 +15,30 @@
 /* HEADER */
 
 /* MAIN */
+
+main {
+  width: 100vw;
+}
+
+main .first-section {
+  background-color: #ffffff;
+  height: 500px;
+}
+
+main .second-section {
+  background-color: #ffe7d2;
+  height: 500px;
+}
+
+main .third-section {
+  background-color: #ffffff;
+  height: 500px;
+}
+
+main .fourth-section {
+  background-color: #ffe7d2;
+  height: 500px;
+}
 
 /* FOOTER */
 
