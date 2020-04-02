@@ -5,6 +5,7 @@ header {
     right: 0;
     left: 0;
     z-index: 10;
+    background-color: $first-color;
     .container {
         min-height: 70px;
         display: flex;
@@ -19,7 +20,6 @@ header {
             display: inline-block;
             padding: 0 15px;
             a {
-                text-decoration: none;
                 &:hover {
                     color: $third-color;
                 }
@@ -28,7 +28,6 @@ header {
         button {
            margin-left: 20px;
            padding: 10px;
-           border-radius: 10px;
            border: 1px solid $third-color;
            color: $first-color;
            background-color: $third-color;
