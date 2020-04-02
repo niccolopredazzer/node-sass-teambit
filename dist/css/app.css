@@ -213,6 +213,68 @@ main {
 
 /* SECTION THREE */
 
+.third-section {
+  padding: 120px 0;
+}
+
+.third-section .container h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: #58402c;
+}
+
+.third-section .container p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 40px;
+  color: #58402c;
+}
+
+.third-section .container a {
+  color: #30488f;
+  font-size: 20px;
+}
+
+.third-section .container a i {
+  position: relative;
+  top: 1px;
+  color: #30488f;
+}
+
+.third-section .container .immagine-testo {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.third-section .container .immagine-testo img {
+  width: 300px;
+}
+
+.third-section .container .row {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.third-section .container .row.righty .destra img {
+  width: 800px;
+  margin-right: -150px;
+}
+
+.third-section .container .row.righty .sinistra {
+  padding-left: 130px;
+}
+
+.third-section .container .row.lefty .sinistra img {
+  width: 800px;
+  margin-left: -200px;
+  position: relative;
+  bottom: 20px;
+}
+
+.third-section .container .row.lefty .destra {
+  padding-right: 130px;
+}
+
 /* SECTION FOUR */
 
 /* FOOTER */
