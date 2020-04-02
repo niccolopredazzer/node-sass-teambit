@@ -1,0 +1,62 @@
+.fourth-section {
+    background-color: $second-color;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    .container {
+        h3 {
+            color: $text-color;
+            font-size: 30px;
+            padding-bottom: 50px;
+        }
+        .finestra-testo {
+            background-color: white;
+            width: 50%;
+            border-radius: 10px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px 20px;
+            border: 1px solid  #bdb5af;
+            position: relative;
+            i {
+                color: $third-color;
+                position: relative;
+                top: -30px;
+                left: -25px;
+                font-size: 25px;
+            }
+            p {
+                line-height: 30px;
+                color: $text-color;
+                padding-bottom: 30px;
+            }
+            .primo-span {
+                color: $third-color;
+                position: relative;
+                bottom: 40px;
+            }
+        }
+        button {
+           margin-top: 30px;
+           margin-left: 20px;
+           padding: 10px;
+           border: 1px solid $third-color;
+           color: $first-color;
+           background-color: $third-color;
+           &:hover {
+               color: $third-color;
+               background-color: $first-color;
+           }
+       }
+       a {
+           display: block;
+           text-decoration: none;
+           color: $text-color;
+           padding-top: 20px;
+           i {
+               position: relative;
+               top: 2px;
+           }
+       }
+    }
+}
