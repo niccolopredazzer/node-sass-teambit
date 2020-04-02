@@ -1,0 +1,14 @@
+.second-section {
+    background-color: $second-color;
+    height: 5000px;
+    padding-top: 100px;
+    .container {
+        text-align: center;
+        h3 {
+            color: #58402c;
+            font-size: 25px;
+            padding: 0 250px;
+            line-height: 40px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.first {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    display: flex;
+    .sinistra {
+        width: 50%;
+        h2 {
+            font-size: 50px;
+            color: $text-color;
+            padding-bottom: 20px;
+        }
+        h4 {
+            font-size: 18px;
+            color: $text-color;
+            padding-bottom: 20px;
+        }
+        button {
+            padding: 10px 10px;
+            border: 1px solid $third-color;
+            color: white;
+            background-color: $third-color;
+            margin-right: 10px;
+            &:hover {
+                background-color: #233569;
+            }
+        }
+        a {
+            font-size: 14px;
+            color: $text-color;
+            display: block;
+            padding-top: 20px;
+            &:hover {
+                color: $third-color;
+            }
+        }
+    }
+    .destra {
+         width: 50%;
+         img {
+             width: 100%;
+         }
+    }
+}

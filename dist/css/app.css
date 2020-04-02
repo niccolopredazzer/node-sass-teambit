@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+.section {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
 /* RESET */
 
 * {
@@ -85,75 +91,83 @@ main {
   margin-top: 71px;
 }
 
-main .first-section {
+/* SECTION ONE */
+
+.first {
   padding-top: 120px;
   padding-bottom: 100px;
-  width: 75%;
-  margin: 0 auto;
-  max-width: 1080px;
   display: flex;
 }
 
-main .first-section .sinistra {
+.first .sinistra {
   width: 50%;
 }
 
-main .first-section .sinistra h2 {
+.first .sinistra h2 {
   font-size: 50px;
   color: #58402c;
   padding-bottom: 20px;
 }
 
-main .first-section .sinistra h4 {
+.first .sinistra h4 {
   font-size: 18px;
   color: #58402c;
   padding-bottom: 20px;
 }
 
-main .first-section .sinistra button {
+.first .sinistra button {
   padding: 10px 10px;
   border: 1px solid #30488f;
   color: white;
   background-color: #30488f;
+  margin-right: 10px;
 }
 
-main .first-section .sinistra button:hover {
+.first .sinistra button:hover {
   background-color: #233569;
 }
 
-main .first-section .sinistra a {
+.first .sinistra a {
   font-size: 14px;
   color: #58402c;
   display: block;
   padding-top: 20px;
 }
 
-main .first-section .sinistra a:hover {
+.first .sinistra a:hover {
   color: #30488f;
 }
 
-main .first-section .destra {
+.first .destra {
   width: 50%;
 }
 
-main .first-section .destra img {
+.first .destra img {
   width: 100%;
 }
 
-main .second-section {
+/* SECTION TWO */
+
+.second-section {
   background-color: #ffe7d2;
   height: 500px;
+  padding-top: 100px;
 }
 
-main .third-section {
-  background-color: #ffffff;
-  height: 500px;
+.second-section .container {
+  text-align: center;
 }
 
-main .fourth-section {
-  background-color: #ffe7d2;
-  height: 500px;
+.second-section .container h3 {
+  color: #58402c;
+  font-size: 25px;
+  padding: 0 250px;
+  line-height: 40px;
 }
+
+/* SECTION THREE */
+
+/* SECTION FOUR */
 
 /* FOOTER */
 
