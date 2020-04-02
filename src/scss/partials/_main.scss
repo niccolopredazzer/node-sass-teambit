@@ -3,17 +3,29 @@ main {
     .first-section{
         background-color: $first-color;
         height: 500px;
+        .container {
+
+        }
     }
     .second-section {
         background-color: $second-color;
         height: 500px;
+        .contaier{
+
+        }
     }
     .third-section {
         background-color: $first-color;
         height: 500px;
+        .container {
+
+        }
     }
     .fourth-section {
         background-color: $second-color;
         height: 500px;
+        .conatainer-medium-width {
+            
+        }
     }
 }

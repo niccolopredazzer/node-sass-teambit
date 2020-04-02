@@ -1,0 +1,41 @@
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    .container {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: $barra-separazione;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        li {
+            display: inline-block;
+            padding: 0 15px;
+            a {
+                text-decoration: none;
+                &:hover {
+                    color: $third-color;
+                }
+            }
+        }
+        button {
+           margin-left: 20px;
+           padding: 10px;
+           border-radius: 10px;
+           border: 1px solid $third-color;
+           color: $first-color;
+           background-color: $third-color;
+           &:hover {
+               color: $third-color;
+               background-color: $first-color;
+           }
+       }
+    }
+}
